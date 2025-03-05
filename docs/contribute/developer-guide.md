@@ -54,16 +54,16 @@ By default, you can access the web-ui at `http://localhost:3000/`.
 To build a HAMi-WebUI Frontend Docker image, run:
 
 ```
-make build-image DOCKER_IMAGE=projecthami/hami-webui-fe VERSION=dev
+make build-image DOCKER_IMAGE=qingqiuhe/hami-webui-fe VERSION=dev
 ```
 
-The resulting image will be tagged as `projecthami/hami-webui-fe:dev`.
+The resulting image will be tagged as `qingqiuhe/hami-webui-fe:dev`.
 
 
 To build a HAMi-WebUI Backend Docker image, run:
 
 ```
-make build-image DOCKER_IMAGE=projecthami/hami-webui-be VERSION=dev
+make build-image DOCKER_IMAGE=qingqiuhe/hami-webui-be VERSION=dev
 ```
 
-The resulting image will be tagged as `projecthami/hami-webui-be:dev`.
+The resulting image will be tagged as `qingqiuhe/hami-webui-be:dev`.

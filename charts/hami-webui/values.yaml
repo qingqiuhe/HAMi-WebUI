@@ -12,12 +12,12 @@ vendorNodeSelectors:
 
 image:
   frontend:
-    repository: projecthami/hami-webui-fe-oss
+    repository: qingqiuhe/hami-webui-fe-oss
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: "main"
   backend:
-    repository: projecthami/hami-webui-be-oss
+    repository: qingqiuhe/hami-webui-be-oss
     pullPolicy: IfNotPresent
     tag: "main"
 

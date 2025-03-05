@@ -1,5 +1,5 @@
 VERSION?=latest
-DOCKER_IMAGE=projecthami/hami-webui-fe
+DOCKER_IMAGE=qingqiuhe/hami-webui-fe
 OUT=./dist
 PROJECT_NAME?=test-project
 
