@@ -24,6 +24,7 @@ type CustomTransport struct {
 
 func (t *CustomTransport) RoundTrip(req *http.Request) (*http.Response, error) {
 	req.Header.Set("Authorization", t.auth)
+	fmt.Printf("Request Method: %s, URL: %s \nBody: %s", req.Method, req.URL, req.Body)
 	return t.Transport.RoundTrip(req)
 }
 
