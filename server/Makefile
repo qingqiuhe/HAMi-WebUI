@@ -1,4 +1,4 @@
-DOCKER_IMAGE ?= projecthami/hami-webui-be
+DOCKER_IMAGE ?= qingqiuhe/hami-webui-be
 CMD_PATH ?= ./cmd/
 BUILD_PATH ?= ./build/
 VERSION ?= $(shell git describe --tags --always)

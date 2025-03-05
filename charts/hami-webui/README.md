@@ -62,10 +62,10 @@ The command removes all the Kubernetes components associated with the chart and 
 | hamiServiceMonitor.interval | string | `"15s"`                                                                            |  |
 | hamiServiceMonitor.relabelings | list | `[]`                                                                               |  |
 | hamiServiceMonitor.svcNamespace | string | "kube-system"                                                                      | Default is "kube-system", but it should be set according to the namespace where the HAMi components are installed. || image.backend.pullPolicy | string | `"IfNotPresent"` |  |
-| image.backend.repository | string | `"projecthami/hami-webui-be-oss"`                                                  |  |
+| image.backend.repository | string | `"qingqiuhe/hami-webui-be-oss"`                                                  |  |
 | image.backend.tag | string | `"v1.0.0"`                                                                         |  |
 | image.frontend.pullPolicy | string | `"IfNotPresent"`                                                                   |  |
-| image.frontend.repository | string | `"projecthami/hami-webui-fe-oss"`                                                  |  |
+| image.frontend.repository | string | `"qingqiuhe/hami-webui-fe-oss"`                                                  |  |
 | image.frontend.tag | string | `"v1.0.0"`                                                                         |  |
 | imagePullSecrets | list | `[]`                                                                               |  |
 | ingress.annotations | object | `{}`                                                                               |  |
